@@ -215,9 +215,9 @@ h4
 
 /*------------------------------------NAUBER---------------------------*/
 
-/*----------------NEDAN ÄR FOOTER SOM GÄLLER FÖR ALLA SIDOR*/------------
+/*----------------NEDAN ÄR FOOTER SOM GÄLLER FÖR ALLA SIDOR------------*/
 
-#rowfooter
+#rowfooter>#footer
 {
     background-color:black;
     height:2em;
@@ -238,7 +238,8 @@ ul
 .footer>li
 {
     
-    padding-left:2%
+    padding-left:2%;
+        
     
 }
 
