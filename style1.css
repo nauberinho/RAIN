@@ -1,0 +1,279 @@
+/*HÄR STYLAS VÅR HEMSIDA*/
+            
+        
+            
+             ul {
+     
+     
+                display: flex;
+                flex-direction: row;
+     
+                }
+ 
+                li {
+     
+                    display:flex;
+                    flex-direction: row;
+     
+                    }
+ 
+                li a {
+     
+     
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    color: white;
+                    font-family: "tahoma";
+                    font-weight: 700;
+     
+                    }
+ 
+            .active {
+                     border-bottom: 1px solid;
+     
+                     }
+
+        li a:hover {
+                         border-bottom: 1px solid;
+
+                         font-size: 115%;
+
+                     } 
+
+            
+                
+          
+         
+            
+                        
+            
+/*---------------------NAUBER-------------------------------------------*/
+                
+            
+            
+            #main
+            {
+                
+                border:0px solid hotpink;
+                background-color:#F9F9F9;
+                text-align: center;
+                
+                border-radius:4px;
+                margin-top: 4em;
+                align-items: center;
+                padding:inherit;
+               height:auto;
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+           
+            .c1
+            {
+            
+                align-content: center;
+    
+            }
+                
+        
+            
+            #rowfixed
+            {
+                position:fixed;
+                z-index:1;
+                background-color: black;
+                height:4em;
+                width:100%;
+               
+                text-align: center;
+                
+                
+            }
+            
+            
+            #car1
+            {
+                
+                margin-top: 20%;
+                
+                    
+                
+            }
+            
+            .pdfbtn
+            {
+                width:10%;
+            }
+            
+            .pdfbtn:hover
+            {
+              width:15%;  
+                
+            }
+            
+            p
+            {
+                font-size: 60%;
+            }
+            
+            #bgimage
+            {
+                background-color:black;
+                background-imag: url("http://www.bebegi.com/wp-content/uploads/2016/06/black-wallpaper-hd-patterns-31.jpg");
+                height:100%;
+                color:white;
+                height:100;
+                
+                padding:-9;
+                
+                
+            }
+            
+                    
+            
+            
+            #logo
+            
+            {
+             
+            margin-top: 40%;
+            margin-left:1%;
+            width:90%;
+            height:10%;
+                
+            }
+
+#info
+{
+    
+  
+  width:70%;
+    margin:auto;
+    font-size: 130%;
+
+    
+    
+    
+}
+
+#rowfixed ul
+{
+   
+    margin:auto;
+    margin-left;25%;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+#car1
+{
+   display:flex;
+    flex-direction: column;
+    
+}
+
+
+#car1 img
+{
+    
+    
+    width:250%;
+    height:auto;
+    margin:auto;
+}
+
+#info
+{
+    
+    
+    width:80%;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+    
+    
+    
+}
+
+h4
+{
+  text-decoration: underline;  
+    
+}
+
+
+/*------------------------------------NAUBER---------------------------*/
+
+/*----------------NEDAN ÄR FOOTER SOM GÄLLER FÖR ALLA SIDOR------------*/
+
+#rowfooter>#footer
+{
+    background-color:black;
+    height:2em;
+    color:white;
+    padding-left: 0;
+    text-align:center;
+    font-family: tahoma;
+    
+    
+}
+
+ul
+{
+    
+  
+    
+}
+
+.footer>li
+{
+    
+    padding-left:2%;
+        
+    
+}
+
+input
+{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+input:hover
+{
+    width:105%;
+    height:115%;
+    background-color: grey;
+    
+}
+
+/*----------------------------------------------------------------*/
+    
+
+
+
+
+
+            
+            
+            
+        
+        
+        
