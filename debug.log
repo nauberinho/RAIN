@@ -13,3 +13,10 @@
 [1004/133818:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
 [1004/133818:ERROR:exception_snapshot_win.cc(87)] thread ID 6296 not found in process
 [1004/133818:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1005/220327:ERROR:process_info.cc(608)] range at 0x14b0379200000000, size 0x26f fully unreadable
+[1005/220327:ERROR:process_info.cc(608)] range at 0x14b037f600000000, size 0x26f fully unreadable
+[1005/220327:ERROR:process_info.cc(608)] range at 0x0, size 0x26f fully unreadable
+[1005/220327:WARNING:in_range_cast.h(38)] value 2676111709554 out of range
+[1005/220327:WARNING:in_range_cast.h(38)] value 2676111707512 out of range
+[1005/220327:WARNING:in_range_cast.h(38)] value 2676111709594 out of range
+[1005/220327:WARNING:in_range_cast.h(38)] value 2676112213280 out of range
