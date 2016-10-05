@@ -73,7 +73,10 @@ li a:hover{
     color:yellow;
     text-decoration: underline;
 }
-
+.txt{
+    text-align: left;
+    float: left;
+}
 .col2
 {
     display:flex;
