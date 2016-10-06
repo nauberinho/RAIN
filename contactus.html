@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <title>Contact</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="column">
+
+    <header class="col1">
+        <div id="menucenter1">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="cars.html">CARS</a></li>
+                <li><a href="webshop.html">WEBSHOP</a></li>
+                <li><a href="forum.html">FORUM</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a class="active" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="col2">
+        <nav class="row1">
+            <h3>Navigate</h3>
+        </nav>
+        <article class="row2">
+
+            <div class="row">
+                <h3>Contact US</h3>
+
+
+            <div class="row">
+                <div class="col-md-3">
+
+                    <h4>Niklas</h4> <br> <p>phone: 070282<br> email: nik@rain.com</p>
+
+
+                </div>
+                <div class="col-md-3">
+
+                    <h4>Amor </h4><br><p>phone: 0702825784<br> email: amor@rain.com</p>
+
+                </div>
+                <div class="col-md-3">
+
+                    <h4>Imran</h4> <br><p>phone: 0702825994<br> email: imran@rain.com</p>
+
+                </div>
+                <div class="col-md-3">
+
+                    <h4>Rikard</h4> <br><p>phone: 0702875694<br> email: rikard@rain.com</p>
+
+                </div>
+
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+
+                    <br><br><br>
+
+
+                    <form id="contact-form" method="post" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="radio">
+                                        <label><input type="radio" name="contact" value="supplier" > Supplier</label>
+                                        <label><input type="radio" name="contact" value="customer" > Customer</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox"> Sweden</label>
+
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class ="col-md-2"></div>
+
+            </div>
+
+
+
+
+        </article>
+
+        <aside class="row3"><h3>Aside</h3></aside>
+    </div>
+
+    <footer class="col3">
+        <ul class="footer">
+            <li class="footerli">@RAINCARS AB, 2016</li>
+            <li class="footerli">070 987 65 43</li>
+            <li class="footerli">Öppettider butik: Mån-Fre 10-18, Lö  10-16, Sö STÄNGT</li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>
